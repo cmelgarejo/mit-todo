@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+}
+
+code {
+  font-family: Arial;
+}
+
+.header {
+  font-size: 4.69em;
+  padding: 30px;
+  margin: 0;
+  color: #fefefe;
+  background-color: #a0ced9;
+}
+
+.app {
+  background: #fefefe;
+  padding: 25px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.todo-list {
+  background: #a0ced9;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 2px 2px 2px #a0ced9;
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+  color: #a0ced9;
+}
